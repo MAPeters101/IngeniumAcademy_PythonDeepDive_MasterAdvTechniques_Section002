@@ -13,8 +13,8 @@ class Book:
     def __repr__(self): # for developers
         return f"Book('{self.title}',  '{self.author}')"
 
-    def __str__(self): # for end user
-        return f"'{self.title}' by {self.author}"
+    # def __str__(self): # for end user
+    #     return f"'{self.title}' by {self.author}"
 
 
 if __name__ == '__main__':
